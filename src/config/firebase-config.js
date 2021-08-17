@@ -1,8 +1,7 @@
 import firebase from "firebase";
 
-var secretApiKey = process.env.API_KEY;
 const firebaseConfig = {
-  apiKey: secretApiKey,
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: "booksearch-app-ac71b.firebaseapp.com",
   projectId: "booksearch-app-ac71b",
   storageBucket: "booksearch-app-ac71b.appspot.com",
