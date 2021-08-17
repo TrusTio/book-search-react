@@ -25,7 +25,7 @@ export const BooksPage = () => {
       <SearchBox>
         <SearchField
           type="search"
-          placeholder="Search for an image"
+          placeholder="Search for a book"
           onChange={(e) => {
             setSearchWord(e.target.value);
           }}
