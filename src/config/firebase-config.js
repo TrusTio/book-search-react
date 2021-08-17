@@ -1,12 +1,14 @@
 import firebase from "firebase";
+
+var secretApiKey = process.env.API_KEY;
 const firebaseConfig = {
-  apiKey: "AIzaSyC4CBff86oCKAmAa7Nm9lBw4BY8Lppz6BE",
-  authDomain: "appgreat-task.firebaseapp.com",
-  projectId: "appgreat-task",
-  storageBucket: "appgreat-task.appspot.com",
-  messagingSenderId: "804535566068",
-  appId: "1:804535566068:web:a0a9b9ce4453f10cabe8a1",
-  measurementId: "G-VJZSTY8TS3",
+  apiKey: secretApiKey,
+  authDomain: "booksearch-app-ac71b.firebaseapp.com",
+  projectId: "booksearch-app-ac71b",
+  storageBucket: "booksearch-app-ac71b.appspot.com",
+  messagingSenderId: "209485061361",
+  appId: "1:209485061361:web:8292d7fc3545c3f4825d50",
+  measurementId: "G-FHB5W2N2W3",
 };
 
 // Initialize Firebase
